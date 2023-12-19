@@ -31,4 +31,5 @@ func TestJSONTagDecode(t *testing.T) {
 
 	json.Unmarshal(jsonBytes, product)
 	fmt.Println(product)
+	fmt.Println(product.ImageURL)
 }
